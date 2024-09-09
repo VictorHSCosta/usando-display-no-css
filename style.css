@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+  text-align: center;
+}
+
+.subscribeButton {
+  display: inline-block;
+  margin: 2em;
+  background-color: #000;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.9em 1.4em;
+  border-radius: 2em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.subscribeButton:hover,
+.buttonMais:hover {
+  background-color: #b8b8b8;
+  color: #000;
+}
+
+.image {
+  width: 50%;
+  height: 30%;
+}
+
+.Generos {
+  margin: 2em;
+}
+
+.Generos > div {
+  display: inline-block;
+  border-radius: 2em;
+  padding: 0.5em 1em;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  cursor: pointer;
+  color: #fff;
+}
+
+.Generos > div > h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.genero {
+  background-color: hsl(197, 82%, 59%);
+}
+.genero:hover {
+  background-color: hsl(197, 82%, 41%);
+}
+
+.buttonMais {
+  background-color: #000;
+}
+
+header > h1 {
+  font-family: "Playfair Display";
+  font-weight: 500;
+  padding: 0.4em;
+  font-size: 3rem;
+}
+
+header > p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding: 0.4em;
+  font-size: 0.9rem;
+}
+
+section {
+  margin: 2em;
+}
+
+section > h2 {
+  font-family: "Playfair Display";
+  font-weight: 300;
+  font-size: 2rem;
+  padding: 0.5em;
+}
+
+section > p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding: 0.5em;
+}
