@@ -90,3 +90,9 @@ section > p {
   font-weight: 400;
   padding: 0.5em;
 }
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 1.5em;
+}
